@@ -4,9 +4,8 @@ This project explores **machine learning approaches for medical diagnosis** usin
 
 The notebook implements and compares multiple strategies to mitigate imbalance, improve recall on the minority class, and ensure clinically meaningful performance.  
 
----
 
-## 🔑 Key Features
+## Key Features
 - **Models Implemented:**
   - k-Nearest Neighbors (kNN)
   - Decision Trees  
@@ -20,22 +19,17 @@ The notebook implements and compares multiple strategies to mitigate imbalance, 
   - Recall (per class)  
   - Stratified k-fold cross-validation  
 
----
-
 ## Results Overview
 - **Baseline models** showed bias toward the majority class ("appendicitis").  
 - **Resampling and class-weighting strategies** improved recall and F1 for the minority class ("no appendicitis").  
 - **GridSearch optimization** achieved the best trade-off between overall performance and minority class sensitivity.  
 - Visualizations demonstrate the incremental improvements in F1 scores for each strategy.  
 
----
-
 ##  Tech Stack
 - **Python** (pandas, scikit-learn, matplotlib, imbalanced-learn)  
 - **Machine Learning** (classification, cross-validation, model optimization)  
 - **Data Handling** (preprocessing, resampling, scaling)  
 
----
 
 ## Project Structure
 - `appendicitis.csv` — dataset  
@@ -43,7 +37,6 @@ The notebook implements and compares multiple strategies to mitigate imbalance, 
 - `requirements.txt` — main implementation
 - `README.md` — project overview
 
----
 
 ## Learning Outcomes
 
